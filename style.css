@@ -65,6 +65,7 @@ nav h1{
   background-color: black;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 .why-section{
   width: 1440px;
@@ -292,4 +293,29 @@ nav h1{
   margin-left: 430px;
   margin-top: -55px;
   cursor: pointer;
+}
+.footer{
+  width: 1900px;
+  background-color: black;
+  color: white;
+}
+
+.footer{
+  width: 1900px;
+ height: 300px;
+ background: rgb(30, 30, 30);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.footer-left h1{
+  color: rgb(229, 84, 115);
+  margin-bottom: 10px;
+}
+.footer-left h2{
+  margin-bottom: 10px;
+}
+.footer p{
+  margin-top: 200px;
+  color: rgb(229, 84, 115);
 }
