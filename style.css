@@ -147,3 +147,60 @@ nav h1{
   height: 550px;
   border-radius: 10px;
 }
+.current-target{
+  width: 1900px;
+  height:500px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.current-text{
+  text-align: center; 
+}
+.current-text h1{
+  font-size: 3rem;
+}
+.current-text p{
+  color: var(--p);
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.current-box{
+  width: 364px;
+  height: 300px;
+  padding-top: 70px;
+  padding-left: 40px;
+}
+.current-box h1{
+  margin: 19px 0;
+}
+.current-box p{
+  color: var(--p);
+  margin-bottom: 10px;
+}
+.current-box a{
+  color: black;
+  font-weight: bold;
+}
+#current-box-1{
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#current-box-2{
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#current-box-3{
+  border-radius: 16px;
+  background-color: rgba(255, 223, 0, 0.05);
+  box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.current-boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
