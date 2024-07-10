@@ -204,3 +204,46 @@ nav h1{
   align-items: center;
   gap: 40px;
 }
+.next-target{
+  width: 1900px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.next-text{
+  text-align: center;
+}
+.next-text h1{
+  font-size: 3rem;
+}
+.next-text p{
+  color: var(--p);
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.next-box{
+  width: 1400px;
+  height: 200px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  gap: 20px;
+  padding-top:60px ;
+  padding-left: 40px;
+  border-radius: 16px;
+}
+.next-box p{
+  color: var(--p);
+  margin: 15px 0;
+}
+.next-box a{
+  font-weight: bold;
+}
+.next-boxes{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
