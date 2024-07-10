@@ -247,3 +247,54 @@ nav h1{
   flex-direction: column;
   gap: 30px;
 }
+.support-section{
+  width: 1400px;
+  height: 400px;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  
+}
+.support-section img{
+  width: 1400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+.support-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+  margin-top: -25%;
+}
+.support-content h1{
+  font-size: 3rem;
+  color: beige;
+}
+.support-content p{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.input{
+  width: 500px;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-right: 200px;
+}
+.submit-btn{
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 18px 23px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 430px;
+  margin-top: -55px;
+  cursor: pointer;
+}
